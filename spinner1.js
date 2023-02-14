@@ -64,3 +64,7 @@ setTimeout(() => {
 setTimeout(() => {
   process.stdout.write('\r\\   '); 
 }, timer += 200);
+
+setTimeout(() => {
+  process.stdout.write('\n'); 
+}, timer += 200);
